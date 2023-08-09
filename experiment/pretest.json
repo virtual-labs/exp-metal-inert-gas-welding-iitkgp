@@ -2,38 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is GMAW welding used for?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Joining metal sheets",
+        "b": "Welding pipes",
+        "c": "Welding non-metallic materials",
+        "d": "Both A and B"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the purpose of Shielding gas in GMAW welding?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "To control welding temperature",
+        "b": "To provide filler material",
+        "c": "To protect weld from atmospheric contamination ",
+        "d": "To provide an electric current to welding gun"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+
+  {
+      "question": "How is the heat used to weld by GMAW process generated?",
+      "answers": {
+        "a": "with a flame",
+        "b": "By using electric arc",
+        "c": "By a chemical reaction",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "What is the gas used in MIG welding called?",
+      "answers": {
+        "a": "Nitrogen dioxide",
+        "b": "Carbon monoxide",
+        "c": "Hydrogen",
+        "d": "Argon"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+{
+      "question": "What type of electrode is used in GMAW welding?",
+      "answers": {
+        "a": "A consumable electrode",
+        "b": "A non-consumable electrode",
+        "c": "A flux-coated electrode",
+        "d": "A filler electrode"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     }
-  ]
+
+]
 }
+
+
