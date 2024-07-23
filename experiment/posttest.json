@@ -136,6 +136,58 @@
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
+    },
+    {
+      "question": "For consistent arc length which type of power source is used by GMAW process?",
+      "answers": {
+        "a": "Constant Current power source",
+        "b": "Constant voltage power source",
+        "c": "Both a & b",
+        "d": "none of the above"
+      },
+      "explanations": {
+       "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In which of the following metal transfer mode metal transfer in the form of large droplets to the workpiece",
+      "answers": {
+        "a": "Spray Transfer",
+        "b": "Short circuiting transfer",
+        "c": "Globular transfer",
+        "d": "Pulsed arc transfer"
+      },
+      "explanations": {
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+{
+      "question": "Which of the following shielding gases are used for the welding of various carbon steels?",
+      "answers": {
+        "a": "Helium",
+        "b": "Nitrogen",
+        "c": "Argon/CO2",
+        "d": "None of the above"
+      },
+      "explanations": {
+       "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
     }
 ]
 }
