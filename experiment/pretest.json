@@ -35,8 +35,7 @@
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
-
-  {
+    {
       "question": "How is the heat used to weld by GMAW process generated?",
       "answers": {
         "a": "with a flame",
@@ -53,7 +52,7 @@
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
-{
+    {
       "question": "What is the gas used in MIG welding called?",
       "answers": {
         "a": "Nitrogen dioxide",
@@ -70,7 +69,7 @@
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
-{
+    {
       "question": "What type of electrode is used in GMAW welding?",
       "answers": {
         "a": "A consumable electrode",
@@ -85,6 +84,57 @@
         "d":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following gas is not used for GMAW?",
+      "answers": {
+        "a": "Argon",
+        "b": "Helium",
+        "c": "Acetylene",
+        "d": "none of the above"
+      },
+      "explanations": {
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following types of metal transfer provide lowest amount of heat to the workpiece?",
+      "answers": {
+        "a": "Spray Transfer",
+        "b": "Short circuiting transfer",
+        "c": "Globular transfer",
+        "d": "Pulsed arc transfer"
+      },
+      "explanations": {
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In GMAW, what is the primary material of the consumable electrode for welding carbon steel?",
+      "answers": {
+        "a": "Aluminium",
+        "b": "Copper",
+        "c": "Mild steel",
+        "d": "Stainless steel"
+      },
+      "explanations": {
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
 
