@@ -9,6 +9,12 @@
         "c": "Gas Mixed arc welding",
         "d": "All of the above"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -19,6 +25,12 @@
         "b": "Short Circuit Transfer",
         "c": "Spray transfer",
         "d": "All of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -31,6 +43,12 @@
         "c": "Better penetration",
         "d": "All of the above"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -41,6 +59,12 @@
         "b": "Increase the heat of the weld",
         "c": "Make the weld stronger",
         "d": "Cool the weld"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -53,6 +77,12 @@
         "c": "Helium",
         "d": "Oxygen"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -63,6 +93,12 @@
         "b": "Larger weld bead",
         "c": "Better penetration",
         "d": "Higher strength of the weld"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -75,6 +111,12 @@
         "c": "Makes the weld stronger",
         "d": "No effect on the weld"
       },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -86,7 +128,65 @@
         "c": "Better penetration",
         "d": "Decreased strength of the weld"
       },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
       "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For consistent arc length which type of power source is used by GMAW process?",
+      "answers": {
+        "a": "Constant Current power source",
+        "b": "Constant voltage power source",
+        "c": "Both a & b",
+        "d": "none of the above"
+      },
+      "explanations": {
+       "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In which of the following metal transfer mode metal transfer in the form of large droplets to the workpiece",
+      "answers": {
+        "a": "Spray Transfer",
+        "b": "Short circuiting transfer",
+        "c": "Globular transfer",
+        "d": "Pulsed arc transfer"
+      },
+      "explanations": {
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+{
+      "question": "Which of the following shielding gases are used for the welding of various carbon steels?",
+      "answers": {
+        "a": "Helium",
+        "b": "Nitrogen",
+        "c": "Argon/CO2",
+        "d": "None of the above"
+      },
+      "explanations": {
+       "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
 ]
