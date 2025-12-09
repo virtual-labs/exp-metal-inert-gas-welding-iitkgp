@@ -3,6 +3,7 @@ $(document).ready(()=>{
     $("#wes2").hide();
     $("#wes3").hide(); 
     $("#wes4").hide();
+    $("#pstr").show();
 });
 
 function adit(ak){
