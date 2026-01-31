@@ -328,12 +328,13 @@ window.addEventListener('beforeunload', () => {
     clearInterval(cynlbl);
 });
 
-const adit = () => {
-            aud.playbackRate = 2.0;
-                aud.play();
-                setTimeout(() => {
+const adit = (x) => {
+            aud.playbackRate = 2.5;
+            if(x==1){
+                aud.play();}
+                else if(x==0){
                     aud.stop();
-                }, 100);
+                }
         };
 function lblupd(objprt,sprt,arw,upof){
     if (!objprt || !sprt || !arw) return;
@@ -346,17 +347,20 @@ let i=0,j=0, k=sizs.wd / sizs.ht*0.0011, m=sizs.wd / sizs.ht*0.0019, adi=0;
 
 const loop = () => {
     if(i==0){
-        scn.add(actme);
-    setTimeout(function() {window.requestAnimationFrame(loop);},500)    
+       // scn.add(actme);
+           
+    setTimeout(function() {window.requestAnimationFrame(loop);},50);
+    
     }
-    else    {
-        scn.add(actme);
-        window.requestAnimationFrame(loop);
+    else  if(i<= ((sizs.wd / sizs.ht)*0.5252555))  {
+      //  scn.add(actme);
+      adit(1);  
+      window.requestAnimationFrame(loop);             
+        
     }
     rndr.render(scn,cam);
-    
+      
     if(i<= ((sizs.wd / sizs.ht)*0.525)){
-        adit();
         trnme.position.set(-sizs.wd / sizs.ht*0.00, sizs.wd / sizs.ht*0.16, sizs.wd / sizs.ht*0.38-m);
         arnme.position.set(-sizs.wd / sizs.ht*0.00, -sizs.wd / sizs.ht*0.018, sizs.wd / sizs.ht*0.415-m);
         lblupd(trnme,ecblsprt,ecblarw,ecblof);
@@ -389,6 +393,7 @@ const loop = () => {
         console.clear();
     }
     else{
+        adit(0);
         if(adi==0){
                 scn.remove(fill);
                 scn.remove(arnme);
@@ -410,6 +415,7 @@ const loop = () => {
             //console.error( error );
 
             } );
+                console.clear();
                 }
         }
 
