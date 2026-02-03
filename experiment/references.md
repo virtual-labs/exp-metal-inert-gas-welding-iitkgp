@@ -1,5 +1,7 @@
 # References
-1. Robert W. Messler Jr - Principles of Welding Processes, Physics, Chemistry, and Metallurgy-Wiley-VCH (2004).
-2. Welding Handbook, Volume 1, WELDING SCIENCE AND TECHNOLOGY.
+1. Welding Handbook- Welding Science and Technology 9th edition, Volume 2 by American Welding Society (2001).
+2. Robert W. Messler Jr – Principles of welding processes, Physics, chemistry, and metallurgy- Wiley-VCH (2004).
+3. Manufacturing Science Second Edition by Amitabh Ghosh and Ashok Kumar Malik (2010)
+
 
 
