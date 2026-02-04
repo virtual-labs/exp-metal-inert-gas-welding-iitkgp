@@ -336,6 +336,7 @@ const adit = (x) => {
                     aud.stop();
                 }
         };
+        
 function lblupd(objprt,sprt,arw,upof){
     if (!objprt || !sprt || !arw) return;
         const lblps = objprt.position.clone().add(upof);
@@ -347,20 +348,20 @@ let i=0,j=0, k=sizs.wd / sizs.ht*0.0011, m=sizs.wd / sizs.ht*0.0019, adi=0;
 
 const loop = () => {
     if(i==0){
-       // scn.add(actme);
-           
+      scn.add(actme);     
     setTimeout(function() {window.requestAnimationFrame(loop);},50);
     
     }
     else  if(i<= ((sizs.wd / sizs.ht)*0.5252555))  {
-      //  scn.add(actme);
+      scn.add(actme);
       adit(1);  
       window.requestAnimationFrame(loop);             
         
     }
     rndr.render(scn,cam);
-      
+      if(actme || arnme || trnme ) {
     if(i<= ((sizs.wd / sizs.ht)*0.525)){
+        
         trnme.position.set(-sizs.wd / sizs.ht*0.00, sizs.wd / sizs.ht*0.16, sizs.wd / sizs.ht*0.38-m);
         arnme.position.set(-sizs.wd / sizs.ht*0.00, -sizs.wd / sizs.ht*0.018, sizs.wd / sizs.ht*0.415-m);
         lblupd(trnme,ecblsprt,ecblarw,ecblof);
@@ -418,7 +419,7 @@ const loop = () => {
                 console.clear();
                 }
         }
-
+    }
 }
 
 loop();
