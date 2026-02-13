@@ -54,9 +54,10 @@ stldr.load( './images/wldma.stl', function ( act ) {
     const actma = new THREE.MeshBasicMaterial( { opacity: act.alpha, vertexColors: true } );
     actme = new THREE.Mesh( act, actma );
 	scn.add( actme );
+    //actme.color = new THREE.Color(0x404040);
     actme.position.set( sizs.wd / sizs.ht*2, sizs.wd / sizs.ht*0.0, 0 );
     actme.rotation.set( -Math.PI/2, 0, Math.PI/1 );
-    actme.scale.set(l*0.8, b*0.8, h*0.8 );
+    actme.scale.set(l*80, b*80, h*80 );
     actme.castShadow = true;
     actme.receiveShadow = true;
 
@@ -65,6 +66,7 @@ stldr.load( './images/wldma.stl', function ( act ) {
 	//console.error( error );
 
 } );
+
 let ml='./images/wrkpclmp.stl';
 stldr.load(ml, function ( mld ) {
     const mldma = new THREE.MeshMatcapMaterial( { opacity: mld.alpha, vertexColors: true } );
@@ -359,7 +361,7 @@ const loop = () => {
         
     }
     rndr.render(scn,cam);
-      if(actme || arnme || trnme ) {
+      if(actme && arnme && trnme ) {
     if(i<= ((sizs.wd / sizs.ht)*0.525)){
         
         trnme.position.set(-sizs.wd / sizs.ht*0.00, sizs.wd / sizs.ht*0.16, sizs.wd / sizs.ht*0.38-m);
