@@ -108,7 +108,7 @@ stldr.load(ar, function ( arn ) {
     arnme = new THREE.Mesh( arn, arma );
 	scn.add( arnme );
     arnme.rotation.set( -Math.PI/2, Math.PI/2*0, Math.PI/2 );
-    //arnme.position.set(-sizs.wd / sizs.ht*0.00, -sizs.wd / sizs.ht*0.5, sizs.wd / sizs.ht*0.6);
+    arnme.position.set(-sizs.wd / sizs.ht*0.00, -sizs.wd / sizs.ht*0.018, sizs.wd / sizs.ht*0.415);
     arnme.scale.set(l*0.55,b*0.55,h*0.65);
     arnme.castShadow = true;
     arnme.receiveShadow = true;
