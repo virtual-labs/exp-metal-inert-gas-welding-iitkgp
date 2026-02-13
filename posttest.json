@@ -1,0 +1,198 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What does GMAW stand for?",
+      "answers": {
+        "a": "Gas Magnetic arc welding",
+        "b": "Gas Metal arc welding",
+        "c": "Gas Mixed arc welding",
+        "d": "All of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+ {
+      "question": "Which of the following metal transfer mode can occur during MIG welding?",
+      "answers": {
+        "a": "Globular transfer",
+        "b": "Short Circuit Transfer",
+        "c": "Spray transfer",
+        "d": "All of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+{
+      "question": "What is the main advantage of GMAW welding over other GTAW?",
+      "answers": {
+        "a": "high metal deposition",
+        "b": "Lower cost",
+        "c": "Better penetration",
+        "d": "All of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+{
+      "question": "What is the use of the shielding gas in GMAW welding?",
+      "answers": {
+        "a": "Prevent oxidation",
+        "b": "Increase the heat of the weld",
+        "c": "Make the weld stronger",
+        "d": "Cool the weld"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Which of the following shielding gases is typically used to achieve shallower penetration in GMAW welding?",
+      "answers": {
+        "a": "Argon",
+        "b": "Carbon dioxide ",
+        "c": "Helium",
+        "d": "Oxygen"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "What is the effect of using a higher voltage in MIG welding?",
+      "answers": {
+        "a": "Shorter weld bead",
+        "b": "Larger weld bead",
+        "c": "Better penetration",
+        "d": "Higher strength of the weld"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "How does using a larger diameter wire affect the MIG weld?",
+      "answers":{ 
+        "a": "Improves penetration",
+        "b": "Decreases penetration",
+        "c": "Makes the weld stronger",
+        "d": "No effect on the weld"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+{
+      "question": "What is the effect of using a lower amperage in MIG welding?",
+      "answers":{ 
+        "a": "Shorter weld bead",
+        "b": "Larger weld bead",
+        "c": "Better penetration",
+        "d": "Decreased strength of the weld"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For consistent arc length which type of power source is used by GMAW process?",
+      "answers": {
+        "a": "Constant Current power source",
+        "b": "Constant voltage power source",
+        "c": "Both a & b",
+        "d": "none of the above"
+      },
+      "explanations": {
+       "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In which of the following metal transfer mode metal transfer in the form of large droplets to the workpiece",
+      "answers": {
+        "a": "Spray Transfer",
+        "b": "Short circuiting transfer",
+        "c": "Globular transfer",
+        "d": "Pulsed arc transfer"
+      },
+      "explanations": {
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+{
+      "question": "Which of the following shielding gases are used for the welding of various carbon steels?",
+      "answers": {
+        "a": "Helium",
+        "b": "Nitrogen",
+        "c": "Argon/CO2",
+        "d": "None of the above"
+      },
+      "explanations": {
+       "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+]
+}
+
+
+
+
+
